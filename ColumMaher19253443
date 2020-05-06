@@ -1,0 +1,31 @@
+5/05/2020:
+Researching topic, searching for sources and general gathering of information
+6/05/2020:
+Found credible source on google scholar
+Started writing
+Work so far
+//
+Mechanics Of VR
+This section of the essay relates to the technology and architecture behind Virtual Reality,
+the systems the user interacts with and how they all work together to maintain a sense of immersion for the user.
+Graphics Displays
+The primary means of human-computer interaction in VR is the Head Mounted Display (HMD) which provides a graphics display using LCD or CRT-based 
+technology although nearly all modern VR systems use LCD and even OLED displays. 
+An effective graphics display needs to match its image characteristics to those of the user’s ability to view the synthetic scene. 
+Essentially this means that each display,(one for each eye) must be similar in shape and render the synthetic scene in a similar manner to the human eye.(pg 58) 
+The human eye has an uneven distribution over the retina. The central area of the retina is called the fovea. 
+It is a high-resolution, colour perception area. 
+This area is surrounded by low-resolution, motion perception photoreceptors covering the rest of the eye. 
+With this in mind the HMD must display a focused image over the fovea. 
+Many systems include eye-tracking to dynamically update this area, tracking the fovea. 
+Early models, such as the first oculus rift did not have eye tracking.
+Another aspect to consider in relation to the HMD is the human field of view. It is 180 degrees horizontally and 120 degrees vertically using both eyes. There is a central area called the stereopsis where both eyes register the same image. This overlap is 120 degrees horizontally and the brain uses it to measure depth. This is important when helping the brain measure depth in VR to keep the sense of immersion.
+ 
+The point F in the diagram above will appear shifted horizontally between the eyes due to its position being different in relation to each eye. 
+This image shift is called parallax and needs to be replicated by the HMD to help the brain interpret depth in the synthetic world. 
+To do this each display outputs two slightly shifted images. 
+If the HMD uses one single display instead of one for each eye the two images are either time-sequenced or spatially sequenced. 
+Depth perception, high-resolution images and depth perception are important factors to sustain a feeling of immersion and also important for preventing the user from feeling nauseous or getting motion sickness. 
+Depth perception is simulated using shadows, occlusions, surface texture and object detail. 
+On single display systems depth perception is made using motion parallax, where closer objects seem to move further than distant ones when the user moves their head.(pg 59)
+User Tracking- Hybrid Inertial Trackers
